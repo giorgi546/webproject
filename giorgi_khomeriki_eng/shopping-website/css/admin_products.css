@@ -1,0 +1,99 @@
+ .products-table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 1rem;
+}
+ .products-table th, .products-table td {
+     padding: 12px;
+     text-align: left;
+     border-bottom: 1px solid #E5E7EB;
+}
+ .products-table th {
+     background: #F8FAFC;
+     font-weight: 600;
+}
+ .product-image {
+     width: 50px;
+     height: 50px;
+     object-fit: cover;
+     border-radius: 8px;
+}
+ .status-badge {
+     padding: 4px 8px;
+     border-radius: 12px;
+     font-size: 0.8rem;
+     font-weight: 600;
+}
+ .status-active {
+     background: #D1FAE5;
+     color: #065F46;
+}
+ .status-inactive {
+     background: #FEE2E2;
+     color: #991B1B;
+}
+ .btn {
+     padding: 6px 12px;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 0.85rem;
+}
+ .btn-primary {
+     background: #3B82F6;
+     color: white;
+}
+ .btn-danger {
+     background: #EF4444;
+     color: white;
+}
+ .btn-success {
+     background: #10B981;
+     color: white;
+}
+ .modal {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0,0,0,0.5);
+     z-index: 1000;
+}
+ .modal-content {
+     background: white;
+     margin: 5% auto;
+     padding: 2rem;
+     width: 90%;
+     max-width: 600px;
+     border-radius: 12px;
+}
+ .form-group {
+     margin-bottom: 1rem;
+}
+ .form-label {
+     display: block;
+     margin-bottom: 0.5rem;
+     font-weight: 600;
+}
+ .form-input, .form-select, .form-textarea {
+     width: 100%;
+     padding: 8px 12px;
+     border: 1px solid #D1D5DB;
+     border-radius: 6px;
+}
+.form-textarea {
+    height: 100px;
+    resize: vertical;
+}
+.search-bar {
+    margin-bottom: 2rem;
+}
+.search-input {
+    padding: 10px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    width: 300px;
+}
