@@ -1,0 +1,137 @@
+.orders-table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 1rem;
+}
+
+.orders-table th, .orders-table td {
+     padding: 12px;
+     text-align: left;
+     border-bottom: 1px solid #E5E7EB;
+}
+
+.orders-table th {
+     background: #F8FAFC;
+     font-weight: 600;
+}
+
+.status-badge {
+     padding: 4px 8px;
+     border-radius: 12px;
+     font-size: 0.8rem;
+     font-weight: 600;
+}
+
+ .status-pending {
+     background: #FEF3C7;
+     color: #D97706;
+}
+.status-processing {
+     background: #DBEAFE;
+     color: #2563EB;
+}
+ .status-shipped {
+     background: #D1FAE5;
+     color: #059669;
+}
+ .status-delivered {
+     background: #D1FAE5;
+     color: #065F46;
+}
+ .status-cancelled {
+     background: #FEE2E2;
+     color: #DC2626;
+}
+ .payment-paid {
+     background: #D1FAE5;
+     color: #065F46;
+}
+ .payment-pending {
+     background: #FEF3C7;
+     color: #D97706;
+}
+ .payment-failed {
+     background: #FEE2E2;
+     color: #DC2626;
+}
+ .btn {
+     padding: 6px 12px;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 0.85rem;
+     margin: 2px;
+}
+ .btn-primary {
+     background: #3B82F6;
+     color: white;
+}
+ .btn-danger {
+     background: #EF4444;
+     color: white;
+}
+ .btn-success {
+     background: #10B981;
+     color: white;
+}
+ .btn-warning {
+     background: #F59E0B;
+     color: white;
+}
+ .modal {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0,0,0,0.5);
+     z-index: 1000;
+}
+ .modal-content {
+     background: white;
+     margin: 5% auto;
+     padding: 2rem;
+     width: 90%;
+     max-width: 500px;
+     border-radius: 12px;
+}
+ .form-group {
+     margin-bottom: 1rem;
+}
+ .form-label {
+     display: block;
+     margin-bottom: 0.5rem;
+     font-weight: 600;
+}
+ .form-select {
+     width: 100%;
+     padding: 8px 12px;
+     border: 1px solid #D1D5DB;
+     border-radius: 6px;
+}
+ .filters {
+     display: flex;
+     gap: 1rem;
+     margin-bottom: 2rem;
+     align-items: center;
+     flex-wrap: wrap;
+}
+ .search-input {
+     padding: 10px;
+     border: 1px solid #D1D5DB;
+     border-radius: 6px;
+     width: 300px;
+}
+ .order-stats {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     gap: 1rem;
+     margin-bottom: 2rem;
+}
+
+ .order-details {
+     font-size: 0.9rem;
+     color: #6B7280;
+}
